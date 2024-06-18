@@ -1,0 +1,12 @@
+  server:
+    port: 3000
+    error:
+        include-stacktrace: never
+  spring:
+    datasource:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/volmed_api
+      username: root
+      password: root
+
+  api.key: MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDkRZJqP9/+gFYz/6v8PdjqZ7Tb0SNdQZ5Q/MkeUzYw5G3RQJx6sPq6y5Ll/LvHtyeWe8e2fASkZ8dX
